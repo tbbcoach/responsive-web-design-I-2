@@ -281,14 +281,18 @@ section .services {
         display: none;
     }
 
+    header {
+        flex-direction: column-reverse;
+    }
+
     .logo {
         margin: 0 40%;
     }
     nav {
-      padding: 20%  
+        margin-top: 3%;
     }
     .middle-img {
-        margin: 7% 2%;
+        margin: 7% 5%;
     }
 
     .below-pic {
