@@ -306,6 +306,10 @@ section .services {
 }
 
 @media (max-width: 500px ) {
+    .logo {
+        height: 2vh;
+
+    }
     nav {
         flex-direction: column;
         align-items: center;
