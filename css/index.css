@@ -280,8 +280,12 @@ section .services {
     .top-section div img {
         display: none;
     }
+
+    .logo {
+        margin: 0 40%;
+    }
     nav {
-        width: 100%;
+      padding: 20%  
     }
     .middle-img {
         margin: 7% 2%;
@@ -289,6 +293,28 @@ section .services {
 
     .below-pic {
         margin-bottom: 10%;
+    }
+
+    footer {
+        border-top: 2px solid black;
+        padding-top: 2%;
+    }
+}
+
+@media (max-width: 500px ) {
+    .bottom-section {
+        flex-direction: column;
+        width: 150%;
+    }
+    .bottom-section div {
+        margin: 2% 0;
+    }
+    .below-pic {
+        flex-direction: column;
+        width: 200%;
+    }
+    .below-pic div {
+        margin: 1% 0;
     }
 }
 
